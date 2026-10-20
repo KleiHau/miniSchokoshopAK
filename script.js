@@ -11,7 +11,7 @@ kaufButtons.forEach(function (button) {
         const name = button.dataset.name;
         const preisText = button.closest(".karte")
             .querySelector(".preis").textContent;
-
+// Preisfunktion für die Shop-Produkte
         const preis = parseFloat(preisText.replace(",", "."));
 
         korb.push(name);
